@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(white, rgb(31, 134, 224));
+}
+img{
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin: auto;
+}
+nav{
+    padding: 3px;
+}
+.container{
+   border: solid;
+    height: 70vh;
+    width: 90vh;
+    margin: auto;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+.message{
+    background-color: darkgray;
+    border: solid;
+   width: 200px;
+    border-radius: 25px;  
+    padding: 2px;
+    margin:10px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+p{
+   text-align: center;
+}
+input{
+    width: 70vh;
+    border-radius: 25px;
+    border: solid;
+}
+button{
+    width: 10vh;
+    border-radius: 25px;
+    background-color: rgb(28, 189, 14);
+    border: solid;
+}
+#sendMessage{
+    text-align: center;
+    padding-top: 5px;
+
+}
